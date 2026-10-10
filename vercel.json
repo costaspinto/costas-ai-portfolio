@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/sync/github",
+      "schedule": "0 7 * * *"
+    },
+    {
+      "path": "/api/sync/linkedin",
+      "schedule": "30 7 * * *"
+    }
+  ]
+}
